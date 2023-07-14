@@ -1,0 +1,50 @@
+.leftPaneBox{
+    background-color: red;
+    flex:3;
+    height: calc(100vh - 50px);
+    overflow: scroll;
+}
+
+::-webkit-scrollbar{
+    width:5px;
+}
+
+.leftpaneContainer{
+    padding: 20px;
+
+}
+.leftpaneContainer{
+    padding: 0;
+    margin:0;
+    list-style: 0;
+
+}
+
+.leftpainmenuIcon{
+    display: flex;
+    allign-item:center;
+    margin-botto:20px;
+}
+.page{
+    width:auto;
+    border-radius: 50;
+}
+.pagesuLike{
+    font-family: sans-serif;
+    font-weight: normal;
+    margin-top: 10px;
+    color:aliceblue;
+}
+
+.pagelistitem{
+    padding: 0;
+    margin:0;
+}
+.pagelisitem{
+    display: plex;
+    aligh-item:center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+
+}

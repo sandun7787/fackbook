@@ -1,0 +1,90 @@
+.navBar{
+    heighy:50px;
+    width:100px;
+    background-color: aqua;
+    display:flex;
+    align-item:center;
+    position:sticky;
+    top:0;
+
+
+}
+.navBarLeft{
+    flex :3;
+
+}
+
+.navBarCenter{
+    flex:4;
+}
+
+.profilePicImge{
+    width:40px;
+    height:32px;
+    object-left :cover;
+    border-radius:50%;
+
+}
+.logo{
+    font-size:35px;
+    margin-left:10px;
+    font-weight:bold;
+    color:aliceblue;
+    cursor:pointer;
+}
+
+.searchBarBox{
+    widows:100px;
+    height:30px;
+    background-color:tan;
+    
+}
+
+.searcIcon{
+    margin-top: 30px;
+
+}
+.serachinput{
+    border:none;
+    width: 80%;
+}
+.serachinput:focus{
+    outline:none;
+
+
+}
+
+.icontag{
+    width:15px;
+    height:15px;
+    backgorund-color:red;
+    color:white;
+    boader-radious:50%;
+    top:auto;
+    display:list-item;
+    aligh-item:center;
+}
+.navBarRight{
+    flex:4;
+    display:flex;
+    align-item:center;
+    justify-content:space-between;
+    color:white;
+}
+
+.navBarIcon{
+    margin-left:10px;
+}
+
+.navBarLink{
+    margin-left:10px;
+    font-size:20px;
+    customer:pointer;
+    font-weight:bold;
+}
+.navBarLinks{
+    margin-left:10px;
+    font-size:20px;
+    cusor:pointer;
+    font-weighthold:67px;
+}
